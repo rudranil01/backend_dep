@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
 app.get('/twitter',(req,res)=>{
     res.send('Acknowledged')
 })
+app.get('/test',(req,res)=>{
+    res.send('Tested')
+})
 
 
 app.listen(process.env.PORT, () => {
